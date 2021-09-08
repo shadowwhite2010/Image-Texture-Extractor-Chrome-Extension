@@ -1,0 +1,52 @@
+body{
+    margin: 3px;
+    background-color: rgb(145, 145, 144);
+    height: fit-content;
+  
+}
+
+.head{
+    display: grid;
+    grid-template-columns:80% 20%;
+    margin-bottom: 3px;
+
+}
+
+.mydiv{
+    border: 3px rgb(96, 96, 96);
+    border-style: ridge;
+}
+
+.botm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: -10px;
+}
+
+canvas{
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    object-fit:contain;
+}
+
+button{
+    background-color: rgb(118, 116, 116);
+    color: whitesmoke;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+#dwnld{
+    background-color: rgb(9, 137, 24);
+    
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: bold;
+    
+}
+
+#dwnld:hover{
+    background-color: rgb(57, 115, 0);
+}
